@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Content from "./Content";
+// import Count from "./Count";
+import Avatar from "./Avatar";
 
 function App() {
   // const [job, setJob] = useState('')
@@ -36,7 +37,7 @@ function App() {
         ))}
       </ul> */}
 
-      {show && <Content/>}
+      {show && <Avatar/> }
     </div>
   )
 }
